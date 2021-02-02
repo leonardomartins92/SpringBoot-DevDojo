@@ -13,18 +13,13 @@ Inicialização:
 @Data: Cria getters, setters, toString, Hashcode <br>
 
 <h3>TIPO:</h3>
-@Component
-@Service
-@RestController
+@Component <br>
+@Service <br>
+@RestController <br>
+
+<h3>Controller:</h3>
+@RequestMapping("endereço") <br>
+@GetMapping(path="") <br>
+ResponseEntity(resposta, HttpStatus.ACCEPTED) <br>
+
 </p>
-
-
-
-
-
-
-
--Controller:
-@RequestMapping("endereço")
-@GetMapping(path="")
-ResponseEntity(resposta, HttpStatus.ACCEPTED)
