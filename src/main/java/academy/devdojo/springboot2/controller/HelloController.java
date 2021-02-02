@@ -1,6 +1,6 @@
-package academ.devdojo.springboot2.controller;
+package academy.devdojo.springboot2.controller;
 
-import academ.devdojo.springboot2.util.Components;
+import academy.devdojo.springboot2.util.Components;
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.web.bind.annotation.GetMapping;
