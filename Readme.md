@@ -8,14 +8,21 @@ Inicialização:
 <h2>RECURSOS NO SPRING:</h2>
 
 
-<p align="center">Escrever uma breve descrição</p>
-@AllArgsConstrutor: Cria construtor com todos os parametros;
-@Data: Cria getters, setters, toString, Hashcode;
+<p>
+@AllArgsConstrutor: Cria construtor com todos os parametros <br>
+@Data: Cria getters, setters, toString, Hashcode <br>
 
-TIPO:
-@Component;
-@Service;
-@RestController;
+<h3>TIPO:</h3>
+@Component
+@Service
+@RestController
+</p>
+
+
+
+
+
+
 
 -Controller:
 @RequestMapping("endereço")
