@@ -20,6 +20,10 @@ Inicialização:
 <h3>Controller:</h3>
 @RequestMapping("endereço") <br>
 @GetMapping(path="") <br>
-ResponseEntity(resposta, HttpStatus.ACCEPTED) <br>
+@PostMapping(path="")<br>
+@DeleteMapping(path="")<br>
+@PutMapping<br>
+@RequestParams("nome") // Requisita parametro ?nome
+@PathVariable //Pega variavel /{name}
 
 </p>
