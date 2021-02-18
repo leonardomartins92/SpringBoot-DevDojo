@@ -1,6 +1,6 @@
-#Configurar Banco de dados
+Configurar Banco de dados:
 
-##Adicionar dependências:
+1. Adicionar dependências
 
 <dependency>
 	<groupId>org.springframework.boot</groupId>
@@ -11,7 +11,7 @@
 	<artifactId>mysql-connector-java</artifactId>
 </dependency>
 
-##Adicionar configurar resources/application.yml
+2. Adicionar configurar resources/application.yml
 
 server:
   error:
@@ -25,7 +25,8 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-## Configurar as classes que serão Entidades:
+
+3. Configurar as classes que serão Entidades:
 
 @Entity
 public class Anime{
